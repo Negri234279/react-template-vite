@@ -28,9 +28,5 @@
 		"lint-staged": "13.0.3",
 		"prettier": "2.7.1",
 		"vite": "3.0.4"
-	},
-	"lint-staged": {
-		"*.{js,jsx,css, html}": "prettier --write .",
-		"*.{js,jsx}": "eslint --fix"
 	}
 }
